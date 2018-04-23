@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class ListController {
 
-    private List<String> names = new ArrayList<>();
+    public List<String> names = new ArrayList<>();
 
     /**
      * Way 1 to make a GET endpoint and pass a name as REQUEST Parameter
